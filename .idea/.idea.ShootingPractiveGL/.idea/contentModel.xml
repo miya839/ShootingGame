@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Eisaku\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_ShootingPractiveGL.786824823.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Eisaku\Documents\Unity Project\ShootingPractiveGL" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Script" t="Include">
+          <e p="CameraControll.cs" t="Include" />
+          <e p="ClickEvent.cs" t="Include" />
+          <e p="DestroyTime.cs" t="Include" />
+          <e p="DistanceButtonScript1.cs" t="Include" />
+          <e p="DistanceSliderScript.cs" t="Include" />
+          <e p="EnemyScript.cs" t="Include" />
+          <e p="HostageScript.cs" t="Include" />
+          <e p="MasterScript.cs" t="Include" />
+          <e p="MenuScript.cs" t="Include" />
+          <e p="ModeButtonScript.cs" t="Include" />
+          <e p="MouseLaser.cs" t="Include" />
+          <e p="StartScript.cs" t="Include" />
+          <e p="TimerScript.cs" t="Include" />
+          <e p="WaveSlideScript.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ShootingPractiveGL.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
