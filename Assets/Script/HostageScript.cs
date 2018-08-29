@@ -10,6 +10,5 @@ public class HostageScript : MonoBehaviour {
 	void Start()
 	{
 		MasterScript.remainingcount -= 1;
-		Debug.Log(MasterScript.remainingcount);
 	}
 }

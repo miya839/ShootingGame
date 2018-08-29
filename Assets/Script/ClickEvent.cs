@@ -20,7 +20,6 @@ public class ClickEvent : MonoBehaviour
     [SerializeField] 
     private GameObject configPanel; 
 
-    private bool clickFlag;
     private float seconds;
     private float oldSeconds;
     
@@ -30,8 +29,6 @@ public class ClickEvent : MonoBehaviour
         this.gameObject.SetActive(false);
         startTime.SetActive(true);
         configPanel.SetActive(false);
-        //clickFlag = true;
-        //Debug.Log("click");
     }
 
     public void Restart()

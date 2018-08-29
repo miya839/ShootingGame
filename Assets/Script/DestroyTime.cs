@@ -20,7 +20,6 @@ public class DestroyTime : MonoBehaviour {
 
     void OnDestroy()
     {
-        Debug.Log(time); 
         script = timer.GetComponent<TimerScript>();
         script.addTime();
     }

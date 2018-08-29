@@ -21,7 +21,6 @@ public class StartScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(_seconds);
 		_seconds -= Time.deltaTime;
             
 		if ((int) _seconds != (int) _oldSeconds)
@@ -33,7 +32,6 @@ public class StartScript : MonoBehaviour {
 		if (_seconds <= 0.0f)
 		{
 			master.SetActive(true);
-			//mainCamera.GetComponent<MouseLaser>().enabled = true;
 			this.gameObject.SetActive(false);
 		}
 	}

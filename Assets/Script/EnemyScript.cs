@@ -7,6 +7,5 @@ public class EnemyScript : MonoBehaviour {
 	void OnDestroy()
 	{
 		MasterScript.remainingcount--;
-		Debug.Log(MasterScript.remainingcount);
 	}
 }
