@@ -20,4 +20,6 @@
 [リンク](https://miya839.github.io/ShootingGame/)
 
 
-※現在OculusGo用のapkを
+※現在OculusGo用のapkをVRapkフォルダ内で公開していますが，OculusIntegrationをインポートするとAndroid以外のビルドができない問題が生じているため，
+別のプロジェクトで作成したものを公開しています．
+解決策が分かればプロジェクトを追加しますが見つからない場合は別のリポジトリを創ると思います．
