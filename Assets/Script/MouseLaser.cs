@@ -33,17 +33,15 @@ public class MouseLaser : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-	            if (hit.collider.gameObject.name == "Button")
-	            {
-		            Debug.Log("click");
-		            audioSource.clip = btnclick;
-		            audioSource.Play();
-	            }
-	            else if(hit.collider.gameObject.layer != 5)
+	            
+	            if(hit.collider.gameObject.layer != 5)
 	            {
 		            audioSource.clip = gun;
 		            audioSource.Play();
 	            }
+	            
+	            audioSource.clip = gun;
+	            audioSource.Play();
 	            
 				Debug.Log(hit.collider.gameObject.tag);
 
