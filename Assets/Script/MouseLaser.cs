@@ -8,7 +8,22 @@ public class MouseLaser : MonoBehaviour
 	public GameObject timer;
 	public GameObject master;
 
-    // Update is called once per frame
+	[SerializeField]
+	private AudioClip gun;
+	[SerializeField]
+	private AudioClip enemy;
+	[SerializeField]
+	private AudioClip hostage;
+	
+	private AudioSource audioSource;
+
+	private void Start()
+	{
+		audioSource = gameObject.GetComponent<AudioSource>();
+		audioSource.clip = gun;
+	}
+
+	// Update is called once per frame
     void Update() {
 
         if (Input.GetMouseButtonDown(0))
@@ -18,11 +33,20 @@ public class MouseLaser : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                Debug.Log(hit.collider.gameObject.name);
+	            if (hit.collider.gameObject.layer != 5)
+	            {
+		            audioSource.clip = gun;
+		            audioSource.Play();
+	            }
+
+
+	            Debug.Log(hit.collider.gameObject.name);
 	            if (hit.collider.gameObject.name == "Hostage")
 	            {
 		            timer.GetComponent<TimerScript>().addTime();
 		            master.GetComponent<MasterScript>().HostageHit();
+		            audioSource.clip = hostage;
+		            audioSource.Play();
 					Destroy(hit.collider.gameObject);
 	            }
 
