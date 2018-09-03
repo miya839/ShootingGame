@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 613, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 77
+  controlID: 26
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 105
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,14 +344,14 @@ MonoBehaviour:
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3874.841063806437
+  lastFramingTime: 1342.2358018422728
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0114081, y: -4.786727, z: 6.5349007}
+    m_Target: {x: -2.6029727, y: -3.2055893, z: -3.5080767}
     speed: 2
-    m_Value: {x: 1.0114081, y: -4.786727, z: 6.5349007}
+    m_Value: {x: -2.6029727, y: -3.2055893, z: -3.5080767}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -379,13 +379,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.19693884, y: -0.027350131, z: 0.005496709, w: -0.98001885}
+    m_Target: {x: -0.30739212, y: 0.12569277, z: -0.04100003, w: -0.94235367}
     speed: 2
-    m_Value: {x: -0.19693884, y: -0.027350133, z: 0.0054967096, w: -0.9800189}
+    m_Value: {x: -0.30739212, y: 0.12569277, z: -0.04100003, w: -0.94235367}
   m_Size:
-    m_Target: 22.584482
+    m_Target: 13.141187
     speed: 2
-    m_Value: 22.584482
+    m_Value: 13.141187
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -476,21 +476,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b8e2ffff72e3ffffb8e4ffffe4fbffff00000000e231000018340000
+    m_ExpandedIDs: da40f9ff9a41f9ffe042f9ff0091faff0092faff2eaffbffdc8dfcff164afdff244afdff2c4afdff2e4afdff324afdff344afdff4e4afdff604afdff724afdffb284fdffc084fdffce84fdffd484fdffd684fdffdc84fdfff084fdff0a85fdff1c85fdff3285fdff7e9bfdffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Door
+      m_OriginalName: Door
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 17256
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -537,34 +537,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Audio
+  - Assets
   m_LastFoldersGridSize: 65
   m_LastProjectPath: C:\Users\Eisaku\Desktop\GitHub\ShootingGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e2e0000
-    m_LastClickedID: 11886
-    m_ExpandedIDs: 00000000082a000016380000183800001a38000000ca9a3b
+    m_SelectedIDs: 082a0000
+    m_LastClickedID: 10760
+    m_ExpandedIDs: 00000000082a000016380000183800001a380000d03c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ToonyTinyPeople
+      m_OriginalName: ToonyTinyPeople
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15740
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -606,7 +606,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 3c9bfcff980500002e05000000000000
+    m_ExpandedInstanceIDs: 3c9bfcff980500002e05000000000000ca85fcff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
