@@ -13,6 +13,7 @@
 
 興味があれば遊んでみてください．
 [リンク](https://miya839.github.io/ShootingGame/)
+
 [VR版のダウンロード](https://drive.google.com/open?id=1Ew5ma_LtPBX50WnRPdHJd0BgJ5dkcqYw)google driveの共有ファイルに飛びます
 
 ※現在OculusGo用のapkをVRapkフォルダ内で公開していますが，OculusIntegrationをインポートするとAndroid以外のビルドができない問題が生じているため，
