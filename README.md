@@ -14,7 +14,7 @@
 青のカプセルは人質で撃つとタイムが10秒加算されます．
 
 興味があれば遊んでみてください．
-[リンク](https://miya839.github.io/ShootingGame/)
+[webGL版のリンク](https://miya839.github.io/ShootingGame/)
 
 [VR版のダウンロード](https://drive.google.com/open?id=1Ew5ma_LtPBX50WnRPdHJd0BgJ5dkcqYw)google driveの共有ファイルに飛びます
 
