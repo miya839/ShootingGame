@@ -11,14 +11,9 @@
 
 青のカプセルは人質で撃つとタイムが10秒加算されます．
 
-
-現在開発中です．今後の予定は
-- 音とかエフェクトを追加する．
-- 気が向けばモデルの質を上げる．
-
 興味があれば遊んでみてください．
 [リンク](https://miya839.github.io/ShootingGame/)
-
+[VR版のダウンロード](https://drive.google.com/open?id=1Ew5ma_LtPBX50WnRPdHJd0BgJ5dkcqYw)google driveの共有ファイルに飛びます
 
 ※現在OculusGo用のapkをVRapkフォルダ内で公開していますが，OculusIntegrationをインポートするとAndroid以外のビルドができない問題が生じているため，
 別のプロジェクトで作成したものを公開しています．
